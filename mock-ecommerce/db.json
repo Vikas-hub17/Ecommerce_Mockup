@@ -127,6 +127,62 @@
       "price": 59.99,
       "description": "A great product",
       "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "1",
+      "name": "Product 1",
+      "price": 29.99,
+      "description": "A great product",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "1",
+      "name": "Product 1",
+      "price": 29.99,
+      "description": "A great product",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "price": 39.99,
+      "description": "Another great product",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "3",
+      "name": "Product 3",
+      "price": 49.99,
+      "description": "A great product",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "1",
+      "name": "Product 1",
+      "price": 29.99,
+      "description": "A great product",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "1",
+      "name": "Product 1",
+      "price": 29.99,
+      "description": "A great product",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "1",
+      "name": "Product 1",
+      "price": 29.99,
+      "description": "A great product",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "price": 39.99,
+      "description": "Another great product",
+      "image": "https://via.placeholder.com/150"
     }
   ]
 }

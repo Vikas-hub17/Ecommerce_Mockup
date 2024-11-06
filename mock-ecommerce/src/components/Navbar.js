@@ -108,12 +108,12 @@ function Navbar({ cartItemCount }) {
       </SearchBar>
 
       <NavLinks>
-        <NavLink to="/signin">Sign In</NavLink>
-        <NavLink to="/orders">Orders</NavLink>
-        <NavLink to="/wishlist">Wishlist</NavLink>
+        <NavLink to="#">Sign In</NavLink>
+        <NavLink to="#">Orders</NavLink>
+        <NavLink to="#">Wishlist</NavLink>
       </NavLinks>
 
-      <CartContainer to="/cart">
+      <CartContainer to="/checkout">
         <CartIcon />
         {cartItemCount > 0 && <CartBadge>{cartItemCount}</CartBadge>}
       </CartContainer>
