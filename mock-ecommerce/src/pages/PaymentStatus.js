@@ -1,16 +1,17 @@
+// src/pages/PaymentResult.js
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 
-function PaymentStatus() {
-  const query = new URLSearchParams(useLocation().search);
-  const status = query.get('status');
+function PaymentResult() {
+  const location = useLocation();
+  const status = new URLSearchParams(location.search).get('status');
 
   return (
     <div>
-      {status === 'success' ? <h1>Payment Successful!</h1> : <h1>Payment Failed!</h1>}
-      <a href="/">Return to Homepage</a>
+      <h2>Payment {status === 'success' ? 'Successful' : 'Failed'}</h2>
+      <p>{status === 'success' ? 'Thank you for your purchase!' : 'Something went wrong. Please try again.'}</p>
     </div>
   );
 }
 
-export default PaymentStatus;
+export default PaymentResult;
